@@ -1,3 +1,32 @@
 Crear un nuevo repositorio:
 git init
 
+Revisar los estados de los archivos:
+git status
+
+Agregar archivos al commit
+git add + archivos
+
+Creando nuevo commit
+git commit -m + "comentario"
+
+eliminar archivos
+git rm --cached +archivos
+
+Archivos .gitignore
+aquí establecen todos los archivos que se quieren ignorar
+
+Historial de commit
+git log
+
+Historial con Estadísticas
+git log --stat
+
+Historial de una Linea
+git log --oneline
+
+Historial Gráfica por ramas
+git log --graph
+
+Regresar a un commit anterior
+git checkout + id commit
