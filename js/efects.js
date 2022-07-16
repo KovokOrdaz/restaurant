@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     $("#btn-about").on("click", function (e) {
         e.preventDefault();
-        $("html, body").animate({ scrollTop: about - 100 }, 500);
+        $("html, body").animate({ scrollTop: about - 200 }, 500);
     });
     $("#btn-menu").on("click", function (e) {
         e.preventDefault();
